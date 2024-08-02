@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "499307101792",
+    "project_id": "rtoapp-bdbad",
+    "storage_bucket": "rtoapp-bdbad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499307101792:android:e50235ffe61fe114ef0d05",
+        "android_client_info": {
+          "package_name": "com.example.rto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTG7XwkwqsclE6z33byeuh92r82COaOq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499307101792:android:700f206a8b8cb4b7ef0d05",
+        "android_client_info": {
+          "package_name": "com.example.rtoadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTG7XwkwqsclE6z33byeuh92r82COaOq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
