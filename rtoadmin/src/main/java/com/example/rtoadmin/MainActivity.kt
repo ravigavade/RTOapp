@@ -19,5 +19,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,UploadActivity::class.java))
         }
 
+        binding.mainUpdate.setOnClickListener {
+            startActivity(Intent(this,UpdateActivity::class.java))
+        }
     }
 }
