@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:src="@drawable/rtoobg" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#60AAC9"
+        app:cardCornerRadius="30sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/referenceVehicleNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:layout_margin="9dp"
+                android:fontFamily="@font/comfortaa_light"
+
+                android:background="@drawable/green_border"
+                android:hint="Enter vehicle number"
+                android:padding="19dp" />
+
+            <EditText
+                android:id="@+id/updateOwnerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:fontFamily="@font/comfortaa_light"
+
+                android:layout_margin="9dp"
+                android:background="@drawable/green_border"
+                android:hint="Enter owner Name"
+                android:padding="19dp" />
+
+            <EditText
+                android:id="@+id/updateVehicleBrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="9dp"
+                android:textColorHint="@color/white"
+                android:fontFamily="@font/comfortaa_light"
+
+                android:background="@drawable/green_border"
+                android:hint="Enter vehicle number"
+                android:padding="19dp" />
+
+            <EditText
+                android:id="@+id/updateVehicleRTO"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/white"
+                android:fontFamily="@font/comfortaa_light"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="9dp"
+                android:background="@drawable/green_border"
+                android:hint="Enter vehicle RTO"
+                android:padding="19dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="UPDATE"
+        android:fontFamily="@font/comfortaa_light"
+        android:paddingHorizontal="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:layout_marginHorizontal="20dp"
+        android:layout_margin="19dp"
+        />
+
+
+</LinearLayout>

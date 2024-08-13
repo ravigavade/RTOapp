@@ -9,11 +9,32 @@
     android:layout_height="match_parent"
     tools:context=".UploadActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:src="@drawable/rtobg" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#60AAC9"
+        app:cardCornerRadius="30sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:orientation="vertical">
+
     <EditText
         android:id="@+id/uploadOwnerName"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="69dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:textColorHint="@color/white"
+
         android:background="@drawable/green_border"
         android:padding="10dp"
         android:hint="Owner Name"
@@ -23,8 +44,11 @@
         android:background="@drawable/green_border"
         android:padding="10dp"
         android:layout_margin="10dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:textColorHint="@color/white"
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="69dp"
         android:hint="Vehical Brand"
         />
     <EditText
@@ -33,7 +57,10 @@
         android:padding="10dp"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="69dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:textColorHint="@color/white"
+
         android:hint="vehical RTO"
         />
     <EditText
@@ -41,15 +68,26 @@
         android:background="@drawable/green_border"
         android:padding="10dp"
         android:layout_margin="10dp"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/comfortaa_light"
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="69dp"
         android:hint="Vehical Number"
         />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
     <Button
-        android:layout_margin="10dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:paddingHorizontal="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:layout_marginHorizontal="20dp"
+        android:layout_margin="19dp"
         android:id="@+id/saveButton"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="69dp"
         android:text="Save"/>
 
 
